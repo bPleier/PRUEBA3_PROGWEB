@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Ejercicio 1</title>
+</head>
+<body>
+<div style="border-style:solid; border-radius:5px; justify-content:center; border-width:1px;
+    width:350px; text-align:center; align-content:center; align-item:center">
+    <form method="POST">
+        <label style="font-size:15px" for="nombre_1"> Nombre 1:</label><br>
+        <input style="width:250px"  type="text" name="nombre_1" value="{{nombre_1}}" required><br>
+        <br>
+        <label style="font-size:15px" for="nombre_2"> Nombre 2:</label><br>
+        <input style="width:250px" type="text" name="nombre_2" value="{{nombre_2}}" required><br>
+        <br>
+        <label style="font-size:15px"  for="nombre_3"> Nombre 3:</label><br>
+        <input style="width:250px"  type="text" name="nombre_3" value="{{nombre_3}}" required><br>
+        <br>
+        <input style="height:35px; width:65px; border-radius: 5px; background-color:#007BF1; color:white" type="submit" value="Enviar"><br>
+        <br>
+        <label value="resultado">{{resultado}}</label><br>
+        <label value="cantidad">{{cantidad}}</label><br>
+    </form>
+</div>
+</body>
+</html>

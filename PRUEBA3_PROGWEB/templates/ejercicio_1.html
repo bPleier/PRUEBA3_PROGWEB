@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Ejercicio 1</title>
+</head>
+<body>
+<div style="border-style:solid; border-radius:5px; justify-content:center; border-width:1px; width:300px; text-align:left; align-content:center; align-item:center" >
+    <form method="POST" action="">
+        <h1 style="font-size:20px">FORMULARIO DE NOTAS</h1>
+        <label style="font-weight:bold " for="nota_1"> Nota 1:</label><br>
+        <input style="width:250px" type="number" min="10" max="70" name="nota_1" value="{{ nota_1 }}" required><br>
+        <br>
+        <label style="font-weight:bold" for="nota_2"> Nota 2:</label><br>
+        <input style="width:250px" type="number"min="10" max="70"  name="nota_2" value="{{ nota_2 }}" required><br>
+        <br>
+        <label style="font-weight:bold" for="nota_3"> Nota 3:</label><br>
+        <input style="width:250px" type="number" min="10" max="70" name="nota_3" value="{{ nota_3 }}" required><br>
+        <br>
+        <label style="font-weight:bold" for="asistencia"> Asistencia (%):</label><br>
+        <input style="width:250px" type="number" min="0" max="100"  name="asistencia" value="{{ asistencia }}" required><br>
+        <br>
+        <input style="height:35px; width:65px; border-radius: 5px; background-color:#007BF1; color:white" type="submit" value="Enviar"><br>
+        <br>
+        <label>{{promedio}}</label><br>
+        <br>
+        <label>{{ramo}}</label><br>
+        <br>
+    </form>
+</div>
+</body>
+</html>

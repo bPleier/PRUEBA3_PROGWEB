@@ -1,0 +1,41 @@
+h1{
+text-align:center;
+align-content:center;
+display:flex;
+align-items:center;
+justify-content:center;
+font-family:times new roman;
+}
+body{
+    align-content:center;
+    text-align:center;
+align-content:center;
+display:flex;
+align-items:center
+    font-family:times new roman;
+}
+
+div{
+background-color: #007BF1;
+height: 100px;
+width: 300px;
+text-align:center;
+align-content:center;
+display:flex;
+align-items:center;
+justify-content:center;
+font-family:times new roman;
+font-size: 40px;
+border-radius: 20px;
+
+}
+a{
+text-align:center;
+align-content:center;
+display:flex;
+align-items:center;
+justify-content:center;
+color: white;
+font-size: 80px
+text-decoration: underline;
+}
